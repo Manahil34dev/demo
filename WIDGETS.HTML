@@ -1,0 +1,30 @@
+
+
+BUTTON
+
+import 'package:flutter/material.dart';
+
+
+void main() {
+  runApp(MaterialApp(
+  home:Scaffold(
+  appBar:AppBar(),
+  body:Center(
+    child:TextButton(
+    child:Text('Button'),
+    onPressed:(){
+      print('Pressed');
+    },
+    style:TextButton.styleFrom(
+    primary:Color.fromARGB(255, 214, 64, 207),
+    backgroundColor:Color.fromARGB(255, 34, 31, 39),
+    textStyle: TextStyle(fontSize:50),
+    elevation:20,
+    ),
+    )),
+  )
+  ));
+}
+  
+
+---------------------------------------------------------------------------------------------------------------------------------------
